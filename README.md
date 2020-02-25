@@ -1,4 +1,4 @@
-# cobra installation
+# Installation
 
 1. Install cobra
 
