@@ -13,7 +13,7 @@ var cfgFile string
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "cobra-command-demo",
+	Use:   "cobra-cli",
 	Short: "An example of cobra",
 	Long: `This application shows how to create modern CLI 
 applications in go using Cobra CLI library`,
