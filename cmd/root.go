@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	homedir "github.com/mitchellh/go-homedir"
+	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -54,9 +54,9 @@ func initConfig() {
 			os.Exit(1)
 		}
 
-		// Search config in home directory with name ".cobra-example" (without extension).
+		// Search config in home directory with name ".cobra-cli" (without extension).
 		viper.AddConfigPath(home)
-		viper.SetConfigName(".cobra-example")
+		viper.SetConfigName(".cobra-cli")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
